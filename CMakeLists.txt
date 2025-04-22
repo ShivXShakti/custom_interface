@@ -27,6 +27,7 @@ endif()
 rosidl_generate_interfaces(${PROJECT_NAME}
 "msg/Age.msg"
 "msg/Object.msg"
+"msg/ObjectArray.msg"
 "srv/MoveMessage.srv"
 "srv/ObjectDetection.srv"
 "action/Move.action"
